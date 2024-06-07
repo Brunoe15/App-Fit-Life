@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #f0f0f0;
+}
+
+/*Cabeçalho da página*/
+.cabeçalho{
+    height: 70px;
+    padding: 5px 15px 10px 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 50px 0;
+}
+#logo{
+    height: 45px;
+    width: 200px;
+    margin-left: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+}
+.links a{
+    color: #007BFF;
+}
+.links a:hover{
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+.links #baixar{
+    background: rgb(0,123,255);
+background: linear-gradient(142deg, rgba(0,123,255,1) 20%, rgba(0,66,237,1) 57%, rgba(0,62,236,1) 78%, rgba(0,12,221,1) 100%);
+    color: #FFFFFF;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.links #baixar #download{
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+    margin-right: 25px;
+}
+
+/*Página principal*/
+.principal{
+    height: 87vh;
+    margin: 0 10px 0;
+    border-radius: 20px;
+    display: flex;
+    background: rgb(0,123,255);
+background: linear-gradient(142deg, rgba(0,123,255,1) 20%, rgba(0,66,237,1) 57%, rgba(0,62,236,1) 78%, rgba(0,12,221,1) 100%);
+}
+article{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 0 0 35px;
+}
+article h1{
+    width: 80%;
+    height: 10vh;
+    font-size: 52px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    font-variation-settings: "wdth" 136;
+}
+article p{
+    width: 90%;
+    color: #f0f0f0;
+    font-size: 28px;
+    font-family: "Open Sans", sans-seri40
+     font-optical-sizing: auto;
+     font-weight: <weight>;
+     font-style: italic;
+    font-variation-settings:"wdth" 85.5;
+}
+article a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    color: #000000;
+    width: 25%;
+    height: 6vh;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: italic;
+    font-variation-settings:"wdth" 85.5;
+}
+#corrida{
+    width: 45%;
+    padding: 20px;
+}
+
+/*Recursos*/
+#recursos{
+    margin-top: 50px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#recursos h1{
+    font-size: 55px;
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    font-variation-settings: "wdth" 136;
+    color: rgb(0,123,255);
+    color: linear-gradient(142deg, rgba(0,123,255,1) 20%, rgba(0,66,237,1) 57%, rgba(0,62,236,1) 78%, rgba(0,12,221,1) 100%);
+}
+#recursos article{
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2%;
+}
+#card{
+    background: rgb(0,123,255);
+    background: linear-gradient(142deg, rgba(0,123,255,1) 20%, rgba(0,66,237,1) 57%, rgba(0,62,236,1) 78%, rgba(0,12,221,1) 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 20px 10px ;
+}
+
+#card img{
+    width: 60px;
+    height: 60px;
+}
+#card h1{
+    text-align: center;
+    font-size: 25px;
+    color: #0f1138;
+    text-decoration: none;
+}
+#card p{
+    text-align: center;
+    font-size: 18px;
+    width: 90%;
+    height: 55%;
+}
+
+/*Depoimentos*/
+#depoimentos{
+    margin-top: 100px;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#depoimentos h1{
+    font-size: 55px;
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    font-variation-settings: "wdth" 136;
+    color: rgb(0,123,255);
+    color: linear-gradient(142deg, rgba(0,123,255,1) 20%, rgba(0,66,237,1) 57%, rgba(0,62,236,1) 78%, rgba(0,12,221,1) 100%);
+}
+#depoimentos article{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+#carddepoi{
+    background: rgb(0,123,255);
+    background: linear-gradient(142deg, rgba(0,123,255,1) 20%, rgba(0,66,237,1) 57%, rgba(0,62,236,1) 78%, rgba(0,12,221,1) 100%);
+    width: 100%;
+    height: 30%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 30px ;
+}
+#carddepoi h1{
+    font-size: 20px;
+}
+#carddepoi h2{
+    font-size: 30px;
+    color: #0f1138;
+}
+#carddepoi p{
+    width: 100%;
+}
+
+ /*Rodapé*/
+footer{
+    background: rgb(0,123,255);
+    background: linear-gradient(142deg, rgba(0,123,255,1) 20%, rgba(0,66,237,1) 57%, rgba(0,62,236,1) 78%, rgba(0,12,221,1) 100%);
+    height: 10vh;
+    text-align: center;
+}
